@@ -1,0 +1,77 @@
+# .github/workflows/build-pdf.yml
+name: 📄 Сборка экзаменационных билетов в PDF
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch: # ручной запуск из GitHub UI
+
+permissions:
+  contents: write # требуется для записи в другой бранч
+
+jobs:
+  build-pdf:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout исходного кода
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # нужно для работы с ветками
+
+      - name: ⚙️ Установка TeX Live (минимальная)
+        uses: xu-cheng/latex-action@v3
+        with:
+          distribution: tinytex
+          packages: |
+            array
+            needspace
+            float
+            babel-russian
+            fontenc
+            inputenc
+            geometry
+          root_file: tickets.tex # главный файл или любой .tex для триггера
+
+      - name: 🔍 Поиск и компиляция всех .tex файлов билетов
+        run: |
+          # Создаём директорию для результатов
+          mkdir -p compiled-pdfs
+
+          # Ищем все .tex файлы (исключая преамбулу и служебные)
+          find . -maxdepth 1 -name "*.tex" -not -name "preamble.tex" -not -name "main.tex" | while read texfile; do
+            filename=$(basename "$texfile" .tex)
+            echo "Компилирую: $filename.tex → $filename.pdf"
+
+            # Компилируем в 2 прохода (для ссылок/оглавления)
+            latexmk -pdf -interaction=nonstopmode -output-directory=compiled-pdfs "$texfile" || {
+              echo "⚠️ Ошибка компиляции $filename.tex, пробуем второй раз..."
+              latexmk -pdf -interaction=nonstopmode -output-directory=compiled-pdfs "$texfile" || {
+                echo "❌ Полный провал компиляции $filename.tex"
+                exit 1
+              }
+            }
+
+            # Переименовываем результат в корень директории (убираем поддиректории)
+            mv "compiled-pdfs/${filename}.pdf" "compiled-pdfs/" 2>/dev/null || true
+          done
+
+          # Проверяем, что хоть один PDF создан
+          if [ ! -f compiled-pdfs/*.pdf ]; then
+            echo "❌ Не найдено ни одного скомпилированного PDF"
+            exit 1
+          fi
+
+          # Показываем результат
+          ls -lh compiled-pdfs/
+
+      - name: 🚀 Публикация PDF в бранч pdf-output
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_branch: pdf-output          # целевой бранч
+          publish_dir: ./compiled-pdfs        # директория с PDF
+          keep_files: true                    # сохранять старые файлы
+          commit_message: "Обновление билетов: ${{ github.sha }}"
+          force_orphan: false                 # не удалять историю коммитов
