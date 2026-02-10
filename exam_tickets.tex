@@ -1,0 +1,72 @@
+\documentclass[oneside]{scrbook}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage[left=3cm, right=1.5cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{needspace}  % для проверки свободного места
+\usepackage{array}      % для управления выравниванием в колонках
+\usepackage{float}      % для указания точного местоположения таблицы
+\usepackage{pgffor}     % для цикла \foreach
+
+\renewcommand{\arraystretch}{1.3} % немного увеличить высоту строк таблицы для лучшей читаемости
+
+\newcommand{\examticket}[2]{% #1 = номер билета, #2 = вопросы
+  \par
+  \needspace{16\baselineskip}
+  \noindent
+  \begin{minipage}{\textwidth}
+    % === Центрированная часть: шапка и таблица ===
+    {\centering
+      \textbf{государственное бюджетное профессиональное образовательное учреждение}\\
+      \textbf{«Пермский политехнический колледж имени Н.Г. Славянова»}
+
+      \vspace{0.4\baselineskip}
+
+      \small
+      \begin{tabular}{|%
+        >{\raggedright\arraybackslash}p{0.25\linewidth}|%
+        >{\centering\arraybackslash}p{0.42\linewidth}|%
+        >{\raggedleft\arraybackslash}p{0.25\linewidth}|%
+      }
+      \hline
+      Рассмотрено ПЦК & \textbf{Экзаменационный билет №#1} & Утверждаю \\
+      «Абракадабра» & по учебной дисциплине & Зам. директора \\
+      протокол №354 & ОП.01 Основы ничего не делания & \rule{1cm}{0.4pt} / К.Д. Люлайка \\
+      от 29.02.2144 г.& специальность 09.02.06 & 01.01.1999 г. \\
+      Председатель ПЦК & «Сетевое и системное администрирование» & \\
+      \rule{1cm}{0.4pt} / Бубликов А.Б. & группа(ы) АБ-10, АБ-10к & \\
+      Согласовано методист & & \\
+      \rule{1cm}{0.4pt} / Г.Д. Щупликов & & \\
+      01.01.1999 г. & & \\
+      \hline
+      \end{tabular}
+      \par
+    } % ← закрываем группу с \centering
+
+    % === Вопросы — выравнивание по левому краю (по умолчанию) ===
+    \vspace{0.6\baselineskip}
+    \normalsize
+    #2 % вопросы автоматически выровнены по левому краю
+
+    % === Подпись преподавателя — центрированная ===
+    \vspace{0.5\baselineskip}
+    {\centering
+      Преподаватель \rule{3cm}{0.4pt}/Н.О. Труляляков\par
+    }
+  \end{minipage}
+  \par
+  \vfill
+}
+
+\begin{document}
+
+% Билеты формируются автоматически, также билет автоматически перейдёт на новую страницу, если не влезет.
+
+% Автобилеты из папки
+\foreach \n in {1,...,32} {
+  \IfFileExists{examtickets/t\n.txt}{
+    \examticket{\n}{\input{examtickets/t\n.txt}}
+  }{}
+}
+
+\end{document}
