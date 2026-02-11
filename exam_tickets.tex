@@ -8,6 +8,26 @@
 \usepackage{float}      % для указания точного местоположения таблицы
 \usepackage{pgffor}     % для цикла \foreach
 
+%парсер тхт файлов
+\newread\myfile
+\def\readline#1#2{%
+  \openin\myfile=#2\relax
+  \readlinehelper{#1}{1}%
+  \closein\myfile
+}
+\def\readlinehelper#1#2{%
+  \ifeof\myfile
+    % Если дошли до конца — ничего не делаем
+  \else
+    \read\myfile to \tmp
+    \ifnum#2=#1\relax
+      \tmp % выводим нужную строку
+    \else
+      \expandafter\readlinehelper\expandafter#1\expandafter{\number\numexpr#2+1\relax}%
+    \fi
+  \fi
+}
+
 \renewcommand{\arraystretch}{1.3} % немного увеличить высоту строк таблицы для лучшей читаемости
 
 \newcommand{\examticket}[2]{% #1 = номер билета, #2 = вопросы
@@ -31,9 +51,9 @@
       \hline
       Рассмотрено ПЦК & \textbf{Экзаменационный билет №#1} & Утверждаю \\
       «Абракадабра» & по учебной дисциплине & Зам. директора \\
-      протокол №354 & ОП.01 Основы ничего не делания & \rule{1cm}{0.4pt} / К.Д. Люлайка \\
-      от 29.02.2144 г.& специальность 09.02.06 & 01.01.1999 г. \\
-      Председатель ПЦК & «Сетевое и системное администрирование» & \\
+      протокол №354 & \readline{2}{parameters.txt}\unskip{} & \rule{1cm}{0.4pt} / К.Д. Люлайка \\
+      от 29.02.2144 г.& специальность \readline{3}{parameters.txt}\unskip{} & 01.01.1999 г. \\
+      Председатель ПЦК & «\readline{4}{parameters.txt}\unskip{}» & \\
       \rule{1cm}{0.4pt} / Бубликов А.Б. & группа(ы) АБ-10, АБ-10к & \\
       Согласовано методист & & \\
       \rule{1cm}{0.4pt} / Г.Д. Щупликов & & \\
