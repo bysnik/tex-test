@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.12)  12 FEB 2026 09:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.12)  12 FEB 2026 09:53
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -547,9 +547,14 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 (./oblast_prim.tex) (./mesto_disc.tex)
-Overfull \hbox (0.56795pt too wide) in paragraph at lines 1--165
-\T2A/cmr/m/n/10 фра-струк-ту-ры и про-грам-ми-ро-ва-ни€ от-но-сит-с€ к об-ще-пр
-о-фес-си-о-наль-но-му учеб-но-му цик-лу (ќѕ.00) ѕѕ——«
+Overfull \hbox (12.92494pt too wide) in paragraph at lines 1--165
+\T2A/cmr/m/n/10 фра-струк-ту-ры от-но-сит-с€ к об-ще-про-фес-си-о-наль-но-му уч
+еб-но-му цик-лу (ќѕ.00) ѕѕ——« спе-ци-аль-но-сти 09.02.06.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--165
+
  []
 
 
@@ -584,7 +589,7 @@ Here is how much of TeX's memory you used:
  89i,8n,95p,1086b,204s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on compiled-pdfs/annotation.pdf (3 pages, 64321 bytes).
+Output written on compiled-pdfs/annotation.pdf (3 pages, 64315 bytes).
 PDF statistics:
  25 PDF objects out of 1000 (max. 8388607)
  15 compressed objects within 1 object stream
