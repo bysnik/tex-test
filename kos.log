@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.11)  11 FEB 2026 13:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.12)  12 FEB 2026 09:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -413,6 +413,7 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@toks=\toks31
 ))
 \myfile=\read3
+\compfile=\read4
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
@@ -422,23 +423,23 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 (compiled-pdfs/kos.aux)
 \openout1 = `kos.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 57.
-LaTeX Font Info:    ... okay on input line 57.
-LaTeX Info: Redefining \th on input line 57.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Info: Redefining \th on input line 126.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 
@@ -477,36 +478,35 @@ Package caption Info: End \AtBeginDocument code.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 70.
+(Font)              <12> on input line 139.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 70.
+(Font)              <8> on input line 139.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 70.
+(Font)              <6> on input line 139.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
 dvips/cm-super/cm-super-t2a.enc}] [2
 
-] (./competencies.txt [3
+] [3
 
-]) [4] [5
+] [4] [5
 
-]
-(./examtickets/t1.txt) (./examtickets/t2.txt) [6
+] (./examtickets/t1.txt)
+(./examtickets/t2.txt) [6
 
-] (./examtickets/t3.txt)
-(./examtickets/t4.txt) [7] (./examtickets/t5.txt) (./examtickets/t6.txt)
-[8] (./examtickets/t7.txt) (./examtickets/t8.txt) [9] (./examtickets/t9.txt)
-(./examtickets/t10.txt) [10] (./examtickets/t11.txt) (./examtickets/t12.txt)
-[11] (./examtickets/t13.txt) (./examtickets/t14.txt) [12]
-(./examtickets/t15.txt) (./examtickets/t16.txt) [13] (./examtickets/t17.txt)
-(./examtickets/t18.txt) [14] (./examtickets/t19.txt) (./examtickets/t20.txt)
-[15] (./examtickets/t21.txt) (./examtickets/t22.txt) [16]
-(./examtickets/t23.txt) (./examtickets/t24.txt) [17] (./examtickets/t25.txt)
-(./examtickets/t26.txt) [18] (./examtickets/t27.txt) (./examtickets/t28.txt)
-[19] (./examtickets/t29.txt) (./examtickets/t30.txt) [20]
-(./examtickets/t31.txt) (./examtickets/t32.txt) [21] (./evaluation.txt)
-[22
+] (./examtickets/t3.txt) (./examtickets/t4.txt)
+[7] (./examtickets/t5.txt) (./examtickets/t6.txt) [8] (./examtickets/t7.txt)
+(./examtickets/t8.txt) [9] (./examtickets/t9.txt) (./examtickets/t10.txt)
+[10] (./examtickets/t11.txt) (./examtickets/t12.txt) [11]
+(./examtickets/t13.txt) (./examtickets/t14.txt) [12] (./examtickets/t15.txt)
+(./examtickets/t16.txt) [13] (./examtickets/t17.txt) (./examtickets/t18.txt)
+[14] (./examtickets/t19.txt) (./examtickets/t20.txt) [15]
+(./examtickets/t21.txt) (./examtickets/t22.txt) [16] (./examtickets/t23.txt)
+(./examtickets/t24.txt) [17] (./examtickets/t25.txt) (./examtickets/t26.txt)
+[18] (./examtickets/t27.txt) (./examtickets/t28.txt) [19]
+(./examtickets/t29.txt) (./examtickets/t30.txt) [20] (./examtickets/t31.txt)
+(./examtickets/t32.txt) [21] (./evaluation.txt) [22
 
 ] (compiled-pdfs/kos.aux)
  ***********
@@ -515,10 +515,10 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10523 strings out of 474222
- 200743 string characters out of 5748733
+ 10528 strings out of 474222
+ 200766 string characters out of 5748733
  1929975 words of memory out of 5000000
- 32585 multiletter control sequences out of 15000+600000
+ 32591 multiletter control sequences out of 15000+600000
  564920 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,7n,65p,726b,204s stack positions out of 10000i,1000n,20000p,200000b,200000s

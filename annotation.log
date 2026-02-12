@@ -2,144 +2,25 @@ This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloade
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**exam_tickets.tex
-(./exam_tickets.tex
+**annotation.tex
+(./annotation.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbook.cls
-Document Class: scrbook 2023/07/07 v3.41 KOMA-Script document class (book)
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2023/07/07 v3.41 KOMA-Script package (KOMA-Script-independent 
-basics and keyval usage)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2023/07/07 v3.41 KOMA-Script package (file load hooks)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2023/07/07 v3.41 KOMA-Script package (using LaTeX hooks)
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2023/07/07 v3.41 KOMA-Script package (logo)
-)))
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks17
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
-Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
-Already applied: [0000/00/00] Usage of raw or classic option list on input line
- 368.
-))
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2023/07/07 v3.41 KOMA-Script package (handling toc-files)
-\scr@dte@tocline@numberwidth=\skip48
-\scr@dte@tocline@numbox=\box51
-)
-Package tocbasic Info: omitting babel extension for `toc'
-(tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `toc' on input line 135.
-Class scrbook Info: You've used standard option `oneside'.
-(scrbook)           This is correct!
-(scrbook)           Internally I'm using `twoside=false'.
-(scrbook)           If you'd like to set the option with \KOMAoptions,
-(scrbook)           you'd have to use `twoside=false' there
-(scrbook)           instead of `oneside', too.
-Class scrbook Info: File `scrsize11pt.clo' used instead of
-(scrbook)           file `scrsize11.clo' to setup font sizes on input line 2691
-.
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2023/07/07 v3.41 KOMA-Script font size class option (11pt
-)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2023/07/07 v3.41 KOMA-Script package (type area)
-\ta@bcor=\skip49
-\ta@div=\count187
-Package typearea Info: You've used standard option `oneside'.
-(typearea)             This is correct!
-(typearea)             Internally I'm using `twoside=false'.
-(typearea)             If you'd like to set the option with \KOMAoptions,
-(typearea)             you'd have to use `twoside=false' there
-(typearea)             instead of `oneside', too.
-\ta@hblk=\skip50
-\ta@vblk=\skip51
-\ta@temp=\skip52
-\footheight=\skip53
-Package typearea Info: These are the values describing the layout:
-(typearea)             DIV  = 10
-(typearea)             BCOR = 0.0pt
-(typearea)             \paperwidth      = 597.50793pt
-(typearea)              \textwidth      = 418.25555pt
-(typearea)              DIV departure   = -6%
-(typearea)              \evensidemargin = 17.3562pt
-(typearea)              \oddsidemargin  = 17.3562pt
-(typearea)             \paperheight     = 845.04694pt
-(typearea)              \textheight     = 595.80026pt
-(typearea)              \topmargin      = -25.16531pt
-(typearea)              \headheight     = 17.0pt
-(typearea)              \headsep        = 20.40001pt
-(typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.6pt
-(typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1799.
-)
-\c@part=\count188
-\c@chapter=\count189
-\c@section=\count190
-\c@subsection=\count191
-\c@subsubsection=\count192
-\c@paragraph=\count193
-\c@subparagraph=\count194
-\scr@dte@chapter@maxnumwidth=\skip54
-Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\chapter on input line 5990.
-\scr@dte@section@maxnumwidth=\skip55
-Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\section on input line 6001.
-Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\section on input line 6001.
-\scr@dte@part@maxnumwidth=\skip56
-Class scrbook Info: using compatibility default `afterindent=true'
-(scrbook)           for `\part on input line 6010.
-\scr@dte@subsection@maxnumwidth=\skip57
-Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\subsection on input line 6020.
-Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\subsection on input line 6020.
-\scr@dte@subsubsection@maxnumwidth=\skip58
-Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\subsubsection on input line 6030.
-Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\subsubsection on input line 6030.
-\scr@dte@paragraph@maxnumwidth=\skip59
-Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\paragraph on input line 6041.
-Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\paragraph on input line 6041.
-\scr@dte@subparagraph@maxnumwidth=\skip60
-Class scrbook Info: using compatibility default `runin=bysign'
-(scrbook)           for `\subparagraph on input line 6051.
-Class scrbook Info: using compatibility default `afterindent=bysign'
-(scrbook)           for `\subparagraph on input line 6051.
-\abovecaptionskip=\skip61
-\belowcaptionskip=\skip62
-\c@pti@nb@sid@b@x=\box52
-Package tocbasic Info: omitting babel extension for `lof'
-(tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 7242.
-\scr@dte@figure@maxnumwidth=\skip63
-\c@figure=\count195
-Package tocbasic Info: omitting babel extension for `lot'
-(tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 7259.
-\scr@dte@table@maxnumwidth=\skip64
-\c@table=\count196
-Class scrbook Info: Redefining `\numberline' on input line 7430.
+\c@part=\count187
+\c@section=\count188
+\c@subsection=\count189
+\c@subsubsection=\count190
+\c@paragraph=\count191
+\c@subparagraph=\count192
+\c@figure=\count193
+\c@table=\count194
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
 (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
@@ -359,18 +240,18 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks18
-\inpenc@posthook=\toks19
+\inpenc@prehook=\toks17
+\inpenc@posthook=\toks18
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2024/01/07 v24.1 The Babel package
-\babel@savecnt=\count197
+\babel@savecnt=\count195
 \U@D=\dimen141
 \l@unhyphenated=\language89
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count198
+\bbl@dirlevel=\count196
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-russian/russianb.ldf
 File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
@@ -382,58 +263,40 @@ Package babel Info: Default for \cyrdash is provided on input line 163.
 Package babel Info: Importing font and identification data for russian
 (babel)             from babel-ru.ini. Reported on input line 11.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-
-(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
-))
-\Gm@cnth=\count199
-\Gm@cntv=\count266
-\c@Gm@tempcnt=\count267
-\Gm@bindingoffset=\dimen142
-\Gm@wd@mp=\dimen143
-\Gm@odd@mp=\dimen144
-\Gm@even@mp=\dimen145
-\Gm@layoutwidth=\dimen146
-\Gm@layoutheight=\dimen147
-\Gm@layouthoffset=\dimen148
-\Gm@layoutvoffset=\dimen149
-\Gm@dimlist=\toks20
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
 )
-(/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
-Package: needspace 2010/09/12 v1.3d reserve vertical space
+(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+Package: titlesec 2023/10/27 v2.16 Sectioning titles
+\ttl@box=\box51
+\beforetitleunit=\skip50
+\aftertitleunit=\skip51
+\ttl@plus=\dimen142
+\ttl@minus=\dimen143
+\ttl@toksa=\toks19
+\titlewidth=\dimen144
+\titlewidthlast=\dimen145
+\titlewidthfirst=\dimen146
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen150
-\ar@mcellbox=\box53
-\extrarowheight=\dimen151
-\NC@list=\toks21
-\extratabsurround=\skip65
-\backup@length=\skip66
-\ar@cellbox=\box54
-)
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
-Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count268
-\float@exts=\toks22
-\float@box=\box55
-\@float@everytoks=\toks23
-\@floatcapt=\box56
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks20
+\labelindent=\skip52
+\enit@outerparindent=\dimen147
+\enit@toks=\toks21
+\enit@inbox=\box52
+\enit@count@id=\count197
+\enitdp@description=\count198
 )
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks24
-\pgfutil@tempdima=\dimen152
-\pgfutil@tempdimb=\dimen153
+\pgfutil@everybye=\toks22
+\pgfutil@tempdima=\dimen148
+\pgfutil@tempdimb=\dimen149
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box57
+\pgfutil@abb=\box53
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -441,35 +304,35 @@ Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
-\pgfkeys@pathtoks=\toks25
-\pgfkeys@temptoks=\toks26
+\pgfkeys@pathtoks=\toks23
+\pgfkeys@temptoks=\toks24
 
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered
 .code.tex
-\pgfkeys@tmptoks=\toks27
+\pgfkeys@tmptoks=\toks25
 ))) (/usr/share/texlive/texmf-dist/tex/latex/pgf/math/pgfmath.sty
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
-\pgf@x=\dimen154
-\pgf@xa=\dimen155
-\pgf@xb=\dimen156
-\pgf@xc=\dimen157
-\pgf@y=\dimen158
-\pgf@ya=\dimen159
-\pgf@yb=\dimen160
-\pgf@yc=\dimen161
-\c@pgf@counta=\count269
-\c@pgf@countb=\count270
-\c@pgf@countc=\count271
-\c@pgf@countd=\count272
+\pgf@x=\dimen150
+\pgf@xa=\dimen151
+\pgf@xb=\dimen152
+\pgf@xc=\dimen153
+\pgf@y=\dimen154
+\pgf@ya=\dimen155
+\pgf@yb=\dimen156
+\pgf@yc=\dimen157
+\c@pgf@counta=\count199
+\c@pgf@countb=\count266
+\c@pgf@countc=\count267
+\c@pgf@countd=\count268
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen162
-\pgfmath@count=\count273
-\pgfmath@box=\box58
-\pgfmath@toks=\toks28
-\pgfmath@stack@operand=\toks29
-\pgfmath@stack@operation=\toks30
+\pgfmath@dimen=\dimen158
+\pgfmath@count=\count269
+\pgfmath@box=\box54
+\pgfmath@toks=\toks26
+\pgfmath@stack@operand=\toks27
+\pgfmath@stack@operation=\toks28
 )
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
@@ -490,42 +353,142 @@ tex)
 thmetics.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
-\c@pgfmathroundto@lastzeros=\count274
+\c@pgfmathroundto@lastzeros=\count270
 )))
 (/usr/share/texlive/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
-\pgffor@iter=\dimen163
-\pgffor@skip=\dimen164
-\pgffor@stack=\toks31
-\pgffor@toks=\toks32
+\pgffor@iter=\dimen159
+\pgffor@skip=\dimen160
+\pgffor@stack=\toks29
+\pgffor@toks=\toks30
 ))
-\myfile=\read3
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks31
+)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count271
+\Gm@cntv=\count272
+\c@Gm@tempcnt=\count273
+\Gm@bindingoffset=\dimen161
+\Gm@wd@mp=\dimen162
+\Gm@odd@mp=\dimen163
+\Gm@even@mp=\dimen164
+\Gm@layoutwidth=\dimen165
+\Gm@layoutheight=\dimen166
+\Gm@layouthoffset=\dimen167
+\Gm@layoutvoffset=\dimen168
+\Gm@dimlist=\toks32
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2023-11-01 v4.19 Multi-page Table package (DPC)
+\LTleft=\skip53
+\LTright=\skip54
+\LTpre=\skip55
+\LTpost=\skip56
+\LTchunksize=\count274
+\LTcapwidth=\dimen169
+\LT@head=\box55
+\LT@firsthead=\box56
+\LT@foot=\box57
+\LT@lastfoot=\box58
+\LT@gbox=\box59
+\LT@cols=\count275
+\LT@rows=\count276
+\c@LT@tables=\count277
+\c@LT@chunks=\count278
+\LT@p@ftn=\toks33
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2023/10/16 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen170
+\ar@mcellbox=\box60
+\extrarowheight=\dimen171
+\NC@list=\toks34
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box61
+)
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+
+(/usr/share/texlive/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PD
+F (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)))
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip59
+\multirow@cntb=\count279
+\multirow@dima=\skip60
+\bigstrutjot=\dimen172
+)
+(/usr/share/texlive/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2018/04/09 v1.1a change counter resetting
+Package chngcntr Info: \counterwithout already defined.
+(chngcntr)             Quitting chngcntr on input line 21.
+)
+\compfile=\read3
+\myfile=\read4
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count275
-\l__pdf_internal_box=\box59
+\l__color_backend_stack_int=\count280
+\l__pdf_internal_box=\box62
 )
-(compiled-pdfs/exam_tickets.aux)
-\openout1 = `exam_tickets.aux'.
+(compiled-pdfs/annotation.aux)
+\openout1 = `annotation.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Info: Redefining \th on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 141.
+LaTeX Font Info:    ... okay on input line 141.
+LaTeX Info: Redefining \th on input line 141.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -535,23 +498,23 @@ LaTeX Info: Redefining \th on input line 81.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(85.35826pt, 469.47055pt, 42.67912pt)
-* v-part:(T,H,B)=(56.9055pt, 731.23593pt, 56.9055pt)
-* \paperwidth=597.50793pt
-* \paperheight=845.04694pt
-* \textwidth=469.47055pt
-* \textheight=731.23593pt
-* \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-52.7645pt
-* \headheight=17.0pt
-* \headsep=20.40001pt
-* \topskip=11.0pt
-* \footskip=47.6pt
-* \marginparwidth=59.7508pt
-* \marginparsep=12.8401pt
+* h-part:(L,W,R)=(71.13188pt, 486.25761pt, 56.9055pt)
+* v-part:(T,H,B)=(56.9055pt, 681.15898pt, 56.9055pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=486.25761pt
+* \textheight=681.15898pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-52.36449pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -561,57 +524,70 @@ LaTeX Info: Redefining \th on input line 81.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 90.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 90.
-(./examtickets/t1.txt)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 90.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 90.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 90.
- (./examtickets/t2.txt) [1
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count281
+\scratchdimen=\dimen173
+\scratchbox=\box63
+\nofMPsegments=\count282
+\nofMParguments=\count283
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count284
+\MPscratchDim=\dimen174
+\MPnumerator=\count285
+\makeMPintoPDFobject=\count286
+\everyMPtoPDFconversion=\toks36
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+(./oblast_prim.tex) (./mesto_disc.tex)
+Overfull \hbox (0.56795pt too wide) in paragraph at lines 1--165
+\T2A/cmr/m/n/10 фра-струк-ту-ры и про-грам-ми-ро-ва-ни€ от-но-сит-с€ к об-ще-пр
+о-фес-си-о-наль-но-му учеб-но-му цик-лу (ќѕ.00) ѕѕ——«
+ []
+
+
+Overfull \hbox (8.50174pt too wide) in paragraph at lines 174--174
+[]\T2A/cmr/m/n/10 выполн€ть мо-ни-то-ринг и ана-лиз ра-бо-ты ло-каль-ной се-ти 
+с по-мо-щью программно-аппаратных средств; 
+ []
+
+[1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
-dvips/cm-super/cm-super-t2a.enc}] (./examtickets/t3.txt) [2] (./examtickets/t4.
-txt) [3] (./examtickets/t5.txt) [4] (./examtickets/t6.txt) [5] (./examtickets/t
-7.txt) [6]
-(./examtickets/t8.txt) [7] (./examtickets/t9.txt) [8] (./examtickets/t10.txt)
-[9] (./examtickets/t11.txt) [10] (./examtickets/t12.txt) [11]
-(./examtickets/t13.txt) [12] (./examtickets/t14.txt) [13]
-(./examtickets/t15.txt) [14] (./examtickets/t16.txt) [15]
-(./examtickets/t17.txt) [16] (./examtickets/t18.txt) [17]
-(./examtickets/t19.txt) [18] (./examtickets/t20.txt) [19]
-(./examtickets/t21.txt) [20] (./examtickets/t22.txt) [21]
-(./examtickets/t23.txt) [22] (./examtickets/t24.txt) [23]
-(./examtickets/t25.txt) [24] (./examtickets/t26.txt) [25]
-(./examtickets/t27.txt) [26] (./examtickets/t28.txt) [27]
-(./examtickets/t29.txt) [28] (./examtickets/t30.txt) [29]
-(./examtickets/t31.txt) [30] (./examtickets/t32.txt) [31] [32]
-(compiled-pdfs/exam_tickets.aux)
+dvips/cm-super/cm-super-t2a.enc}] [2]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 194.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 194.
+ [3
+
+] (compiled-pdfs/annotation.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 11611 strings out of 474222
- 238855 string characters out of 5748733
- 1937975 words of memory out of 5000000
- 33677 multiletter control sequences out of 15000+600000
- 564921 words of font info for 50 fonts, out of 8000000 for 9000
+ 10023 strings out of 474222
+ 187309 string characters out of 5748733
+ 1931975 words of memory out of 5000000
+ 32148 multiletter control sequences out of 15000+600000
+ 559683 words of font info for 38 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,11n,107p,10932b,329s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,8n,95p,1086b,204s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/
-fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/c
-m-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb
->
-Output written on compiled-pdfs/exam_tickets.pdf (32 pages, 169998 bytes).
+fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on compiled-pdfs/annotation.pdf (3 pages, 64321 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 25 PDF objects out of 1000 (max. 8388607)
+ 15 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.11)  11 FEB 2026 13:35
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.12)  12 FEB 2026 09:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -461,6 +461,7 @@ Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 \myfile=\read3
+\compfile=\read4
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
@@ -470,23 +471,23 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 (compiled-pdfs/program.aux)
 \openout1 = `program.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 48.
-LaTeX Font Info:    ... okay on input line 48.
-LaTeX Info: Redefining \th on input line 48.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 137.
+LaTeX Font Info:    ... okay on input line 137.
+LaTeX Info: Redefining \th on input line 137.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -545,9 +546,9 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 62.
+(Font)              <7> on input line 151.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 62.
+(Font)              <5> on input line 151.
 
 [1
 
@@ -556,22 +557,29 @@ dvips/cm-super/cm-super-t2a.enc}] [2
 
 ] [3
 
-]
-Overfull \hbox (8.50174pt too wide) in paragraph at lines 180--180
+] (./oblast_prim.tex)
+(./mesto_disc.tex)
+Overfull \hbox (0.56795pt too wide) in paragraph at lines 1--260
+\T2A/cmr/m/n/10 фра-струк-ту-ры и про-грам-ми-ро-ва-ния от-но-сит-ся к об-ще-пр
+о-фес-си-о-наль-но-му учеб-но-му цик-лу (ОП.00) ППССЗ
+ []
+
+
+Overfull \hbox (8.50174pt too wide) in paragraph at lines 269--269
 []\T2A/cmr/m/n/10 выполнять мо-ни-то-ринг и ана-лиз ра-бо-ты ло-каль-ной се-ти 
 с по-мо-щью программно-аппаратных средств; 
  []
 
-(./competencies.txt [4
+[4
 
-]) [5] [6
+] [5] [6
 
 ]
-Overfull \vbox (19.24995pt too high) detected at line 288
+Overfull \vbox (19.24995pt too high) detected at line 377
  []
 
 
-Overfull \vbox (5.49995pt too high) detected at line 299
+Overfull \vbox (5.49995pt too high) detected at line 388
  []
 
 [7
@@ -579,11 +587,11 @@ Overfull \vbox (5.49995pt too high) detected at line 299
 
 ] [8]
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-427.
+513.
  (/usr/share/texlive/texmf-dist/tex/latex/cyrillic/t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-Overfull \hbox (6.81544pt too wide) in paragraph at lines 427--428
+Overfull \hbox (6.81544pt too wide) in paragraph at lines 513--514
 []\T2A/cmr/m/n/10 Канцедал С.А. Ал-го-рит-ми-за-ция и про-грам-ми-ро-ва-ние: уч
 еб-ное по-со-бие. ^^V М.: ИД ФО-РУМ: НИЦ ИНФРА-
  []
@@ -592,54 +600,54 @@ Overfull \hbox (6.81544pt too wide) in paragraph at lines 427--428
 
 
 ]
-Underfull \hbox (badness 1755) in paragraph at lines 445--445
+Underfull \hbox (badness 1755) in paragraph at lines 531--531
 []|\T2A/cmr/m/n/10 Понятие ал-го-рит-ми-за-ции, свой-ства
  []
 
 
-Overfull \vbox (45.0pt too high) detected at line 445
+Overfull \vbox (45.0pt too high) detected at line 531
  []
 
 
-Overfull \vbox (75.0pt too high) detected at line 445
+Overfull \vbox (75.0pt too high) detected at line 531
  []
 
 
-Underfull \hbox (badness 3623) in paragraph at lines 447--447
+Underfull \hbox (badness 3623) in paragraph at lines 533--533
 []|\T2A/cmr/m/n/10 Эволюция язы-ков про-грам-ми-ро-ва-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 453--453
+Underfull \hbox (badness 10000) in paragraph at lines 539--539
 []|\T2A/cmr/m/n/10 Объектно-ориентированная мо-
  []
 
 
-Underfull \hbox (badness 4048) in paragraph at lines 453--453
+Underfull \hbox (badness 4048) in paragraph at lines 539--539
 \T2A/cmr/m/n/10 дель про-грам-ми-ро-ва-ния, ос-нов-ные
  []
 
 
-Underfull \hbox (badness 3930) in paragraph at lines 453--453
+Underfull \hbox (badness 3930) in paragraph at lines 539--539
 \T2A/cmr/m/n/10 прин-ци-пы ООП: по-ня-тие клас-сов
  []
 
 
-Underfull \hbox (badness 4366) in paragraph at lines 453--453
+Underfull \hbox (badness 4366) in paragraph at lines 539--539
 \T2A/cmr/m/n/10 и объ-ек-тов, их свойств и ме-то-
  []
 
 
-Underfull \hbox (badness 1442) in paragraph at lines 453--453
+Underfull \hbox (badness 1442) in paragraph at lines 539--539
 \T2A/cmr/m/n/10 дов, ин-кап-су-ля-ции, по-ли-мор-физ-ма,
  []
 
 
-Overfull \vbox (60.0pt too high) detected at line 457
+Overfull \vbox (60.0pt too high) detected at line 543
  []
 
 
-Overfull \vbox (15.0pt too high) detected at line 458
+Overfull \vbox (15.0pt too high) detected at line 544
  []
 
 [10
@@ -651,20 +659,20 @@ L3 programming layer <2024-01-22>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 10114 strings out of 474222
- 188724 string characters out of 5748733
+ 10145 strings out of 474222
+ 189192 string characters out of 5748733
  1948975 words of memory out of 5000000
- 32235 multiletter control sequences out of 15000+600000
+ 32261 multiletter control sequences out of 15000+600000
  564110 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 89i,9n,95p,1063b,296s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 89i,9n,95p,1083b,309s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texmf/fonts/type1/public/cm-super/sfbx0900.pfb></usr/share/texmf/
 fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm0900.pfb
 ></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/f
 onts/type1/public/cm-super/sfti1000.pfb></usr/share/texmf/fonts/type1/public/cm
 -super/sftt1000.pfb>
-Output written on compiled-pdfs/program.pdf (11 pages, 212139 bytes).
+Output written on compiled-pdfs/program.pdf (11 pages, 212685 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream

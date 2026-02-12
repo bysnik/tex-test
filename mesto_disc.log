@@ -1,0 +1,291 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.12)  12 FEB 2026 09:48
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**mesto_disc.tex
+(./mesto_disc.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-01-22>
+
+! LaTeX Error: Unicode character У (U+0423)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 У
+      чебная дисциплина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ч (U+0447)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Уч
+        ебная дисциплина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character е (U+0435)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Уче
+          бная дисциплина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character б (U+0431)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учеб
+            ная дисциплина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character н (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебн
+              ая дисциплина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character а (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебна
+                я дисциплина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character я (U+044F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебная
+                   дисциплина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character д (U+0434)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебная д
+                     исциплина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character и (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебная ди
+                       сциплина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character с (U+0441)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебная дис
+                         циплина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character ц (U+0446)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебная дисц
+                           иплина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character и (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебная дисци
+                             плина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character п (U+043F)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебная дисцип
+                               лина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character л (U+043B)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебная дисципл
+                                 ина \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character и (U+0438)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебная дисципли
+                                   на \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character н (U+043D)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебная дисциплин
+                                     а \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+
+! LaTeX Error: Unicode character а (U+0430)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 Учебная дисциплина
+                                        \readline{2}{parameters.txt}\unskip{...
+
+You may provide a definition with
+\DeclareUnicodeCharacter 
+
+! Missing number, treated as zero.
+<to be read again> 
+                   {
+l.1 Учебная дисциплина \readline{
+                                                  2}{parameters.txt}\unskip{...
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing `to' inserted.
+<to be read again> 
+                   {
+l.1 Учебная дисциплина \readline{
+                                                  2}{parameters.txt}\unskip{...
+You should have said `\read<number> to \cs'.
+I'm going to look for the \cs now.
+
+! Missing control sequence inserted.
+<inserted text> 
+                \inaccessible 
+l.1 Учебная дисциплина \readline{
+                                                  2}{parameters.txt}\unskip{...
+Please don't say `\def cs{...}', say `\def\cs{...}'.
+I've inserted an inaccessible control sequence so that your
+definition will be completed without mixing me up too badly.
+You can recover graciously from this error, if you're
+careful; see exercise 27.2 in The TeXbook.
+
+! Emergency stop.
+<read 0> 
+         
+l.1 Учебная дисциплина \readline{
+                                                  2}{parameters.txt}\unskip{...
+*** (cannot \read from terminal in nonstop modes)
+
+ 
+Here is how much of TeX's memory you used:
+ 30 strings out of 474222
+ 495 string characters out of 5748733
+ 1922975 words of memory out of 5000000
+ 22383 multiletter control sequences out of 15000+600000
+ 558069 words of font info for 36 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 12i,0n,13p,335b,14s stack positions out of 10000i,1000n,20000p,200000b,200000s
+!  ==> Fatal error occurred, no output PDF file produced!
