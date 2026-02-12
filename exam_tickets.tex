@@ -43,22 +43,36 @@
       \vspace{0.4\baselineskip}
 
       \small
+
       \begin{tabular}{|%
-        >{\raggedright\arraybackslash}p{0.25\linewidth}|%
-        >{\centering\arraybackslash}p{0.42\linewidth}|%
-        >{\raggedleft\arraybackslash}p{0.25\linewidth}|%
-      }
-      \hline
-      Рассмотрено ПЦК & \textbf{Экзаменационный билет №#1} & Утверждаю \\
-      «Абракадабра» & по учебной дисциплине & Зам. директора \\
-      протокол №354 & \readline{2}{parameters.txt}\unskip{} & \rule{1cm}{0.4pt} / К.Д. Люлайка \\
-      от 29.02.2144 г.& специальность \readline{3}{parameters.txt}\unskip{} & 01.01.1999 г. \\
-      Председатель ПЦК & «\readline{4}{parameters.txt}\unskip{}» & \\
-      \rule{1cm}{0.4pt} / Бубликов А.Б. & группа(ы) АБ-10, АБ-10к & \\
-      Согласовано методист & & \\
-      \rule{1cm}{0.4pt} / Г.Д. Щупликов & & \\
-      01.01.1999 г. & & \\
-      \hline
+            >{\raggedright\arraybackslash}p{0.24\linewidth}|%
+            >{\centering\arraybackslash}p{0.40\linewidth}|%
+            >{\raggedleft\arraybackslash}p{0.24\linewidth}|%
+          }
+          \hline
+          Рассмотрено ПЦК\newline
+          «Абракадабра»\newline
+          протокол №354\newline
+          от 29.02.2144 г.\newline
+          Председатель ПЦК\newline
+          \rule{1cm}{0.4pt} / Бубликов А.Б.\newline
+          Согласовано методист\newline
+          01.01.1999 г.
+          &
+          \textbf{Экзаменационный билет №\#1}\newline
+          по учебной дисциплине\newline
+          \readline{2}{parameters.txt}\unskip{}\newline
+          специальность \readline{3}{parameters.txt}\unskip{}\newline
+          «\readline{4}{parameters.txt}\unskip{}»\newline
+          группа(ы) АБ-10, АБ-10к
+          &
+          \hfill Утверждаю\newline
+          \mbox{}\hfill Зам. директора\newline
+          \rule{1cm}{0.4pt} / К.Д. Люлайка\newline
+          \mbox{}\hfill  01.01.1999 г.\newline
+          \rule{1cm}{0.4pt} / Г.Д. Щупликов\par % ← КЛЮЧЕВОЕ ИЗМЕНЕНИЕ
+          \\
+          \hline
       \end{tabular}
       \par
     } % ← закрываем группу с \centering
