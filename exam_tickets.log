@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.12)  12 FEB 2026 09:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.2.12)  12 FEB 2026 10:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -509,23 +509,23 @@ File: l3backend-pdftex.def 2024-01-04 L3 backend support: PDF output (pdfTeX)
 (compiled-pdfs/exam_tickets.aux)
 \openout1 = `exam_tickets.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 81.
-LaTeX Font Info:    ... okay on input line 81.
-LaTeX Info: Redefining \th on input line 81.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 95.
+LaTeX Font Info:    ... okay on input line 95.
+LaTeX Info: Redefining \th on input line 95.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -562,34 +562,31 @@ LaTeX Info: Redefining \th on input line 81.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 90.
+(Font)              <7> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 90.
+(Font)              <5> on input line 104.
 (./examtickets/t1.txt)
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 90.
+(Font)              <10.95> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 90.
+(Font)              <8> on input line 104.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 90.
+(Font)              <6> on input line 104.
  (./examtickets/t2.txt) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/
-dvips/cm-super/cm-super-t2a.enc}] (./examtickets/t3.txt) [2] (./examtickets/t4.
-txt) [3] (./examtickets/t5.txt) [4] (./examtickets/t6.txt) [5] (./examtickets/t
-7.txt) [6]
-(./examtickets/t8.txt) [7] (./examtickets/t9.txt) [8] (./examtickets/t10.txt)
-[9] (./examtickets/t11.txt) [10] (./examtickets/t12.txt) [11]
-(./examtickets/t13.txt) [12] (./examtickets/t14.txt) [13]
-(./examtickets/t15.txt) [14] (./examtickets/t16.txt) [15]
-(./examtickets/t17.txt) [16] (./examtickets/t18.txt) [17]
-(./examtickets/t19.txt) [18] (./examtickets/t20.txt) [19]
-(./examtickets/t21.txt) [20] (./examtickets/t22.txt) [21]
-(./examtickets/t23.txt) [22] (./examtickets/t24.txt) [23]
-(./examtickets/t25.txt) [24] (./examtickets/t26.txt) [25]
-(./examtickets/t27.txt) [26] (./examtickets/t28.txt) [27]
-(./examtickets/t29.txt) [28] (./examtickets/t30.txt) [29]
-(./examtickets/t31.txt) [30] (./examtickets/t32.txt) [31] [32]
+dvips/cm-super/cm-super-t2a.enc}] (./examtickets/t3.txt) (./examtickets/t4.txt)
+ [2] (./examtickets/t5.txt)
+(./examtickets/t6.txt) [3] (./examtickets/t7.txt) (./examtickets/t8.txt)
+[4] (./examtickets/t9.txt) (./examtickets/t10.txt) [5] (./examtickets/t11.txt)
+(./examtickets/t12.txt) [6] (./examtickets/t13.txt) (./examtickets/t14.txt)
+[7] (./examtickets/t15.txt) (./examtickets/t16.txt) [8] (./examtickets/t17.txt)
+(./examtickets/t18.txt) [9] (./examtickets/t19.txt) (./examtickets/t20.txt)
+[10] (./examtickets/t21.txt) (./examtickets/t22.txt) [11]
+(./examtickets/t23.txt) (./examtickets/t24.txt) [12] (./examtickets/t25.txt)
+(./examtickets/t26.txt) [13] (./examtickets/t27.txt) (./examtickets/t28.txt)
+[14] (./examtickets/t29.txt) (./examtickets/t30.txt) [15]
+(./examtickets/t31.txt) (./examtickets/t32.txt) [16]
 (compiled-pdfs/exam_tickets.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
@@ -599,7 +596,7 @@ L3 programming layer <2024-01-22>
 Here is how much of TeX's memory you used:
  11611 strings out of 474222
  238855 string characters out of 5748733
- 1937975 words of memory out of 5000000
+ 1934975 words of memory out of 5000000
  33677 multiletter control sequences out of 15000+600000
  564921 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -608,10 +605,10 @@ Here is how much of TeX's memory you used:
 fonts/type1/public/cm-super/sfbx1095.pfb></usr/share/texmf/fonts/type1/public/c
 m-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb
 >
-Output written on compiled-pdfs/exam_tickets.pdf (32 pages, 169998 bytes).
+Output written on compiled-pdfs/exam_tickets.pdf (16 pages, 128546 bytes).
 PDF statistics:
- 128 PDF objects out of 1000 (max. 8388607)
- 85 compressed objects within 1 object stream
+ 77 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
