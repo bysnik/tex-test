@@ -15,12 +15,32 @@
 \usepackage{multirow}
 \usepackage{url} % Для корректного отображения URL
 
+\usepackage{titlesec}
+
+% Выравнивание ВСЕХ заголовков по левому краю
+\titleformat{\part}{\normalfont\huge\bfseries}{\thepart}{1em}{}
+\titleformat{\chapter}{\normalfont\Large\bfseries}{\thechapter}{1em}{}
+% \titleformat{\section}[hang]{\normalfont\large\bfseries}{}{1em}{}
+\titleformat{\section}{\normalfont\large\bfseries\centering}{}{1em}{}
+\titleformat{\subsection}{\normalfont\bfseries}{\thesubsection}{1em}{}
+\titleformat{\subsubsection}{\normalfont\bfseries}{\thesubsubsection}{1em}{}
+\titleformat{\paragraph}[runin]{\normalfont\bfseries}{\theparagraph}{1em}{}
+\titleformat{\subparagraph}[runin]{\normalfont\bfseries}{\thesubparagraph}{1em}{}
+
+% Убираем отступы слева у всех заголовков
+\titlespacing*{\part}{0pt}{50pt}{40pt}
+\titlespacing*{\chapter}{0pt}{50pt}{20pt}
+\titlespacing*{\section}{0pt}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+\titlespacing*{\subsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\subsubsection}{0pt}{3.25ex plus 1ex minus .2ex}{1.5ex plus .2ex}
+\titlespacing*{\paragraph}{0pt}{3.25ex plus 1ex minus .2ex}{1em}
+\titlespacing*{\subparagraph}{0pt}{3.25ex plus 1ex minus .2ex}{1em}
+
 \onehalfspacing
 \setlist[itemize]{noitemsep, topsep=4pt, parsep=0pt, partopsep=0pt, leftmargin=1.25cm}
 \setlist[enumerate]{noitemsep, topsep=4pt, parsep=0pt, partopsep=0pt, leftmargin=1.25cm}
 \setitemize[1]{label=--}
 \pagestyle{empty}
-\titleformat{\section}{\normalfont\large\bfseries\centering}{\thesection}{1em}{}
 \setlength{\parindent}{1.25cm} % стандартный отступ по ГОСТ (1.25 см)
 \setlength{\parskip}{0pt}      % убрать вертикальный отступ между абзацами
 \geometry{top=2cm, bottom=2cm, left=2.5cm, right=2cm} % Поля страницы
@@ -43,6 +63,75 @@
       \expandafter\readlinehelper\expandafter#1\expandafter{\number\numexpr#2+1\relax}%
     \fi
   \fi
+}
+
+\makeatletter
+
+% Накопитель
+\def\competencylist{}
+
+% Чтение CSV
+\newread\compfile
+\def\readcompetencies#1{%
+  \openin\compfile=#1
+  % Пропускаем первую строку (заголовок)
+  \read\compfile to \dummyline
+  % Читаем остальные
+  \loop
+    \read\compfile to \line
+    \unless\ifeof\compfile
+      \ifx\line\empty\else
+        \expandafter\extractfirstfield\line\relax
+      \fi
+  \repeat
+  \closein\compfile
+}
+
+% Извлекает всё до первой запятой
+\def\extractfirstfield#1,#2\relax{%
+  \ifx\competencylist\@empty
+    \gdef\competencylist{#1}%
+  \else
+    \g@addto@macro\competencylist{, #1}%
+  \fi
+}
+
+\makeatother
+
+\makeatletter
+
+% Вторая функция: вывод списка "comp. description"
+\def\competencyitems{}
+
+\def\readcompetencyitems#1{%
+  \openin\compfile=#1
+  % Пропускаем заголовок
+  \read\compfile to \dummyline
+  \loop
+    \read\compfile to \line
+    \unless\ifeof\compfile
+      \ifx\line\empty\else
+        \expandafter\parseitem\line\relax
+      \fi
+  \repeat
+  \closein\compfile
+}
+
+% Парсинг строки: "OK 01,Описание" → "OK 01. Описание"
+\def\parseitem#1,#2\relax{%
+  \ifx\competencyitems\@empty
+    \gdef\competencyitems{#1. #2}%
+  \else
+    \g@addto@macro\competencyitems{\par #1. #2}%
+  \fi
+}
+
+\makeatother
+
+% Удобный макрос для использования
+\newcommand{\printcompetencylist}[1]{%
+  \readcompetencyitems{#1}%
+  \competencyitems
 }
 
 \begin{document}
@@ -87,7 +176,7 @@
 \end{center}
 \clearpage
 
-% Основной текст документа========================================================================================================================
+% Основной текст документа ===================================================================================================
 
 Рабочая программа учебной дисциплины \readline{2}{parameters.txt}\unskip{} разработана на основе:
 
@@ -157,19 +246,19 @@
 
 \clearpage
 
-\section*{ОБЩАЯ ХАРАКТЕРИСТИКА РАБОЧЕЙ ПРОГРАММЫ УЧЕБНОЙ ДИСЦИПЛИНЫ \\
+\section{ОБЩАЯ ХАРАКТЕРИСТИКА РАБОЧЕЙ ПРОГРАММЫ УЧЕБНОЙ ДИСЦИПЛИНЫ \\
 \readline{2}{parameters.txt}\unskip{}}
 \label{sec:obshchaya}
 
-1.1. Область применения рабочей программы
+\subsection{Область применения рабочей программы}
 
-Рабочая программа учебной дисциплины является частью программы подготовки специалистов среднего звена (ППССЗ) по специальности СПО в соответствии с ФГОС СПО по ТОП-50 \readline{3}{parameters.txt}\unskip{} \readline{4}{parameters.txt}\unskip{}, утверждённым приказом Министерства образования и науки Российской Федерации 09 декабря 2016 № 1548, зарегистрированным в Министерстве юстиции Российской Федерации 26 декабря 2016 года, регистрационный № 44978, укрупнённой группыспециальностей 09.00.00 Информатика и вычислительная техника.
+\input{oblast_prim}
 
-1.2. Место дисциплины в структуре основной профессиональной образовательной программы:
+\subsection{Место дисциплины в структуре основной профессиональной образовательной программы:}
 
-Учебная дисциплина ОП.04 Основы алгоритмизации и программирования относится к общепрофессиональному учебному циклу (ОП.00) ППССЗ специальности \readline{3}{parameters.txt}\unskip{}.
+\input{mesto_disc}
 
-1.3. Цели и планируемые результаты освоения дисциплины:
+\subsection{Цели и планируемые результаты освоения дисциплины:}
 
 В результате освоения дисциплины обучающийся должен
 
@@ -189,14 +278,14 @@
 
 В результате изучения дисциплины обучающийся осваивает элементы общих и профессиональных компетенций.
 
-\input{competencies.txt}
+\printcompetencylist{competencies.csv}
 
 \clearpage
 
-\section*{СТРУКТУРА ПРИМЕРНОЙ УЧЕБНОЙ ДИСЦИПЛИНЫ  }
+\section{СТРУКТУРА ПРИМЕРНОЙ УЧЕБНОЙ ДИСЦИПЛИНЫ  }
 \label{sec:struktura}
 
-2.1. Объем учебной дисциплины и виды учебной работы
+\subsection{Объем учебной дисциплины и виды учебной работы}
 
 \begin{tabular}{|p{10cm}|c|}
 \hline
@@ -230,7 +319,7 @@
 
 \begin{landscape}
 
-2.2. Тематический план и содержание учебной дисциплины ОП.04 Основы алгоритмизации и программирования
+\subsection{Тематический план и содержание учебной дисциплины ОП.04 Основы алгоритмизации и программирования}
 
     \small
     \setlength{\tabcolsep}{4pt}
@@ -370,10 +459,10 @@
 
 \clearpage
 
-\section*{УСЛОВИЯ РЕАЛИЗАЦИИ ПРОГРАММЫ }
+\section{УСЛОВИЯ РЕАЛИЗАЦИИ ПРОГРАММЫ }
 \label{sec:usloviya}
 
-3.1. Материально-техническое обеспечение
+\subsection{Материально-техническое обеспечение}
 Реализация программы предполагает наличие учебной лаборатории Информационных технологий, Программирования и баз данных
 Оборудование лаборатории и рабочих мест лаборатории: 
 
@@ -398,10 +487,7 @@
   \item[*] демонстрационные печатные пособия и демонстрационные ресурсы в электронном представлении.
 \end{itemize}
 
-3.2. Информационное обеспечение обучения
-
-% В документе:
-\section*{Информационное обеспечение дисциплины}
+\subsection{Информационное обеспечение обучения}
 
 \textbf{Основные источники:}
 

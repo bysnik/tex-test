@@ -54,6 +54,75 @@
   \vfill
 }
 
+\makeatletter
+
+% Накопитель
+\def\competencylist{}
+
+% Чтение CSV
+\newread\compfile
+\def\readcompetencies#1{%
+  \openin\compfile=#1
+  % Пропускаем первую строку (заголовок)
+  \read\compfile to \dummyline
+  % Читаем остальные
+  \loop
+    \read\compfile to \line
+    \unless\ifeof\compfile
+      \ifx\line\empty\else
+        \expandafter\extractfirstfield\line\relax
+      \fi
+  \repeat
+  \closein\compfile
+}
+
+% Извлекает всё до первой запятой
+\def\extractfirstfield#1,#2\relax{%
+  \ifx\competencylist\@empty
+    \gdef\competencylist{#1}%
+  \else
+    \g@addto@macro\competencylist{, #1}%
+  \fi
+}
+
+\makeatother
+
+\makeatletter
+
+% Вторая функция: вывод списка "comp. description"
+\def\competencyitems{}
+
+\def\readcompetencyitems#1{%
+  \openin\compfile=#1
+  % Пропускаем заголовок
+  \read\compfile to \dummyline
+  \loop
+    \read\compfile to \line
+    \unless\ifeof\compfile
+      \ifx\line\empty\else
+        \expandafter\parseitem\line\relax
+      \fi
+  \repeat
+  \closein\compfile
+}
+
+% Парсинг строки: "OK 01,Описание" → "OK 01. Описание"
+\def\parseitem#1,#2\relax{%
+  \ifx\competencyitems\@empty
+    \gdef\competencyitems{#1. #2}%
+  \else
+    \g@addto@macro\competencyitems{\par #1. #2}%
+  \fi
+}
+
+\makeatother
+
+% Удобный макрос для использования
+\newcommand{\printcompetencylist}[1]{%
+  \readcompetencyitems{#1}%
+  \competencyitems
+}
+
 \begin{document}
 
 % 1. Шапка — название колледжа (по центру)
@@ -150,7 +219,7 @@
 
 КОС промежуточной аттестации имеют своей целью определение сформированности общих и профессиональных компетенций:
 
-\input{competencies.txt}
+\printcompetencylist{competencies.csv}
 
 \clearpage
 
